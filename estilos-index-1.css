@@ -1,0 +1,89 @@
+*
+{
+	margin:0px;
+}
+
+@font-face
+{
+/*https://www.dafont.com/es/search.php?q=GaroaHackerClube*/
+font-family:GaroaHackerClubeBold;
+src:url(GaroaHackerClubeBold.otf);
+}
+
+@font-face
+{
+/*https://www.dafont.com/es/ubuntu-title.font*/
+font-family:UbuntuTitle;
+src:url(UbuntuTitle.ttf);
+}
+
+img
+{
+max-width:100%;
+}
+
+.clase-A1
+{
+	padding:20px;
+	color:#ffffff;
+	font-size:2.5em;
+	text-align:center;
+	background:#0fa38d;
+	letter-spacing:3px;
+	font-variant: small-caps;
+	font-family:GaroaHackerClubeBold;
+}
+
+.clase-A2	
+{
+	color:#ffffff;
+	font-size:18px;
+	background:#0fa38d;
+	letter-spacing:normal;
+	font-family:UbuntuTitle;
+}
+
+.clase-B1
+{
+	color:#ffffff;
+	background:#074f44;
+	text-align:justify;
+	font-family:UbuntuTitle;
+}
+
+.clase-B2
+{
+	color:#ffffff;
+	background:#032923;
+	text-align:justify;
+	font-family:UbuntuTitle;
+}
+
+.clase-C1
+{
+	color:#ffffff;
+	background:#074f44;
+	text-align:justify;
+	font-family:UbuntuTitle;
+
+}
+
+.clase-D1
+{
+	
+	background:#032923;
+	text-align:justify;
+	font-family:UbuntuTitle;
+
+}
+
+/**/
+
+@media screen and (max-width:768px)
+{
+	.h5,p
+	{
+		display:none;
+	}
+
+}
